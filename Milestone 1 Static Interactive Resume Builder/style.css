@@ -1,0 +1,87 @@
+/* Styling */
+body{
+    margin:0px;
+    padding:150px;
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(geometric\ background.jpg);
+}
+
+.resume-container{
+    display:flex;
+    background-image:url("vector\ background.avif");
+    background-size:cover;
+    margin:0 auto;
+    border-radius:10px;
+    width:80%;
+    box-shadow:0 0 50px rgb(115, 154, 185);
+}
+
+.left-section{
+    background-color:aliceblue;
+    padding:20px;
+    width:35%;
+    text-align:center;
+    border-right: 5px dashed indigo;
+    border-radius: 10px;
+}
+
+.profile-pic{
+    width:250px;
+    height:250px;
+    margin-top:5%;
+    border-radius:50%;
+    border:3px solid indigo;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align:center;
+}
+
+h3{
+    font-size: 18px;
+    padding:2px;
+    margin:20px 0 10px;
+    border-radius: 10px;
+    color:rgb(15, 102, 102);
+    box-shadow: 0 0 15px rgb(115, 154, 185);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul{
+    list-style-type:fill round;
+    padding:10px;
+    margin:10px 0;
+}
+
+ul li{
+    margin: 5px 0;
+}
+
+/* Right section*/
+
+.right-section{
+    padding:20px;
+    width:65%;
+}
+
+button{
+    font-family:'Courier New', Courier, monospace;
+    border-radius:10px;
+    box-shadow: 0 0 10px rgb(115, 154, 185);
+    cursor:pointer;
+    margin-top: 10px;
+    font-size:18px;
+}
+
+button:hover{
+    background-color:indianred;
+}
+
+
+
+
